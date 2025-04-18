@@ -1,0 +1,29 @@
+header{
+    max-width: 1920px;
+    width: 100%;
+}
+header::after{
+    display: block; visibility: hidden; content: none; clear: both;
+}
+header h1{
+    float: left;
+    margin-left: 4%;
+}
+header h1 a{
+    display: block;
+}
+header nav{
+    display: block;
+    float: right;
+    padding:  4%;
+}
+/* 로그인, 회원가입 버튼 css */
+header nav a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+header nav a:last-child{
+    margin-left: 40px;
+}

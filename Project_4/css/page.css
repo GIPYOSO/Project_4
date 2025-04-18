@@ -1,0 +1,18 @@
+
+
+.mainSection{
+    max-width: 1920px;
+    width: 100%;
+}
+
+.mainSection img{
+    width: 100%;
+    position: relative;
+}
+
+.mainSection div{
+    position: absolute;
+    width: 99%;
+    text-align: center;
+    top: 500px;
+}
